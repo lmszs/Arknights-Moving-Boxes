@@ -181,6 +181,7 @@ bool check(Boxes& boxes, Map& map) {
 	// 	}
 	// }
 
+	
 	for (int i = 0; i < 4; i++) {
 		if (checkIndividual(map, enemies[i], doors[i], doorColor[i], dis[i],
 							fullDis) == 0)
